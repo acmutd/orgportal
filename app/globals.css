@@ -67,3 +67,24 @@
     @apply bg-background text-foreground;
   }
 }
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Light.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-bold';
+  src: url('/fonts/Gilroy-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+.gilroy {
+  font-family: 'Gilroy', sans-serif;
+}
+.gilroy-bold {
+  font-family: 'Gilroy-bold', sans-serif;
+}
+
